@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // تابع rewrites را اینجا اضافه کنید
+  // تنظیماتی که برای رفع خطای CORS در حالت dev نیاز دارید:
+  allowedDevOrigins: ['158.255.74.235'],
+
+  // تنظیمات قبلی شما:
   async rewrites() {
     return [
       {
@@ -10,7 +13,6 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-
 };
 
 export default nextConfig;
