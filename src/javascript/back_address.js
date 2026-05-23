@@ -1,5 +1,5 @@
-const BACKEND_BASE = process.env.NEXT_PUBLIC_BASE_BACK_ADDRESS_SLASH
-const BACKEND_BASE_IMAGE= process.env.NEXT_PUBLIC_BASE_BACK_ADDRESS
+const BACKEND_BASE = "https://api.iqchart.ir/api/v1/"
+const BACKEND_BASE_IMAGE= "https://api.iqchart.ir/api/v1"
 export default function back_address() {
   console.log(BACKEND_BASE);
   console.log(BACKEND_BASE_IMAGE);
