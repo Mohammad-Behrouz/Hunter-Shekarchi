@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/v1/api/:path*",
-        destination: "http://mohammadbehrouz.ir/api/:path*",
+        destination: "https://api.iqchart.ir/api/:path*",
       },
     ];
   },

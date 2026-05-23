@@ -185,13 +185,13 @@ export const pinarDs4Fd = localFont({
 // --- فونت‌های Variable ---
 // اطمینان حاصل کنید که نام فایل‌ها را طبق نکته بالا تغییر داده‌اید
 export const pinarVF = localFont({
-  src: './Fonts/Pinar-VF.ttf',
+  src: './Fonts/PINAR-VF.ttf',
   variable: '--font-pinar-vf',
   display: 'swap',
 });
 
 export const pinarFdVf = localFont({
-  src: './Fonts/Pinar-FD-VF.ttf',
+  src: './Fonts/PINAR-FD-VF.ttf',
   variable: '--font-pinar-fd-vf',
   display: 'swap',
 });
